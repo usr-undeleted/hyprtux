@@ -1,7 +1,7 @@
 # niritux (W.I.P)
 
 <p align="center">
-  <img src="ignore/niritux.png" alt="Test" width="450">
+  <img src="ignore/logo.svg" alt="Test" width="450">
 </p>
 
 Hyprland dotfiles meant to always look screenshot-worthy, modular, and utilizable. Inspired by Ubuntu's Gnome design, its point is to be basically a lighter desktop environment editable easily by the user.  
@@ -18,11 +18,10 @@ Run the ./install.sh script (the script will have comments wether the user is cu
 
 The installation will be simplified by a install script that will:  
 1. Backup existant configs, saving them to a folder inside the repo.  
-2. Multiple options of installation, covering:  
-Color presets, design presets, choosing to install default apps, etc. Hopefully, the script will combine all the presets onto one file for the configs (maybe using echo "stuff" >> ?)  
-3. Check for any errors during installation.
+2. Move any existant configs to a backup folder.  
+Note: while still giving a warning, the script WILL override whatever configs are stored in the backup folder incase you run the script again.  
+3. Copy the config files to their respective places  
 
-The repo will serve as a place to run several tools for the dotfiles.  
 It won't mess with an user's shell or their shell's configurations, nor add configs for fastfetch or other cli commands.  
 
 # Design basics:
@@ -44,7 +43,19 @@ Monospace: Agave Nerd Font
 
 4. Avoid being "flashy" constantly:  
 Over-using animations, constant effects, etc. Only use them to make the user feel as if their actions mean something, for example, clicking a button should give a small animation and effect.  
-Animations should be minimal and fast, but still feel flowy with the system.  
+Animations should be minimal and fast, but still feel "flowy" with the system.  
+
+5. Values to be used:  
+These are the values that will be used everywhere in the design.  
+Rounded corners: 10px  
+Margins, gaps, etc: 5px  
+Border width: 2px  
+
+6. Default apps:  
+Terminal: Alacritty  
+Background utility: (blank)  
+Bar: Waybar  
+App launcher: Fuzzel  
 
 # Contributing:  
 Incase you want to help me make these dotfiles, your contribution is welcome as long as:  
