@@ -1,7 +1,7 @@
 # niritux (W.I.P)
 
 <p align="center">
-  <img src="ignore/logo.svg" alt="Test" width="450">
+  <img src="ignore/logo.png" alt="Test" width="450">
 </p>
 
 Hyprland dotfiles meant to always look screenshot-worthy, modular, and utilizable. Inspired by Ubuntu's Gnome design, its point is to be basically a lighter desktop environment editable easily by the user.  
